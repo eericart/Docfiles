@@ -1,0 +1,44 @@
+# Conky Word Clock
+use_xft yes
+xftfont Droid Sans:size=14
+xftalpha 1
+override_utf8_locale yes
+
+
+update_interval 1
+total_run_times 0
+
+own_window yes
+own_window_type normal
+own_window_class conky
+#own_window_argb_visual yes
+#own_window_argb_value 100
+own_window_transparent yes
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+
+border_margin 5
+border_width 5
+cpu_avg_samples 2
+default_color 000000
+default_outline_color 000000
+default_shade_color 000000
+double_buffer yes
+draw_borders no
+draw_graph_borders no
+draw_outline no
+draw_shades no
+
+alignment tl
+gap_x 50
+gap_y 350
+minimum_size 350 350
+
+color0 ffffff
+color1 e6e6e6
+
+TEXT
+
+${if_running spotify}
+${font Roboto}${color1}${goto 10}${voffset -8}${execpi 2 python2 /home/ernest/.conky/spotify-display/spotify_getinfo.py}
+${image $HOME/.conky/spotify-display/latest.png -n -p 5,90 -s 128x128}
+${endif}

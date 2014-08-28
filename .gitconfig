@@ -1,0 +1,7 @@
+c[user]
+	name = Ernest Ricart
+	email = ernest2193@gmail.com
+[credential]
+	helper = cache
+[core]
+	editor = vim

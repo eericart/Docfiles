@@ -1,0 +1,67 @@
+{
+	"bold_folder_labels": true,
+	"caret_style": "solid",
+	"color_scheme": "Packages/Colorcoder/base16-ocean.dark (Colorcode) (SL) (Colorcode).tmTheme",
+	"dartsdk_path": "/Users/foo/dart-sdk",
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		"__pycache__"
+	],
+	"font_face": "Ubuntu Mono",
+	"font_options":
+	[
+		"subpixel_antialias",
+		"no_bold"
+	],
+	"font_size": 12,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"jQuery",
+		"Markdown",
+		"SublimeLinter-pylint",
+		"Git",
+		"Theme - Flatland",
+		"Pylinter",
+		"Autoprefixer",
+		"Vintage",
+		"SideBarGit"
+	],
+	"index_exclude_patterns":
+	[
+		"/media/ernest/Datos/Dev/rails/products_order/app/models/products.rb",
+		"*.log"
+	],
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
+	"original_color_scheme": "Packages/User/base16-ocean.dark (Colorcode) (SL).tmTheme",
+	"rulers":
+	[
+		80
+	],
+	"save_on_focus_lost": true,
+	"shift_tab_unindent": true,
+	"tab_size": 2,
+	"theme": "Spacegray.sublime-theme",
+	"todo":
+	{
+		"case_sensitive": true,
+		"patterns":
+		{
+			"CHANGED": "CHANGED[\\s]*?:+(?P<changed>\\S.*)$",
+			"FIXME": "FIX ?ME[\\s]*?:+(?P<fixme>\\S.*)$",
+			"NOTE": "NOTE[\\s]*?:+(?P<note>.*)$",
+			"TODO": "TODO[\\s]*?:+(?P<todo>.*)$"
+		}
+	},
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"wide_caret": true,
+	"word_wrap": true,
+	"wrap_width": 80
+}
